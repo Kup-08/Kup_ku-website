@@ -1,2 +1,7 @@
-# Kup_ku.github.io
-Website for Kup_ku
+<!DOCTYPE html>
+<head>
+  <title>Kup_ku</title>
+</head>
+<body>
+  
+</body>
