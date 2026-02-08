@@ -1,4 +1,41 @@
 * {
-    background-color: rgb(48, 35, 58);
-    color:aliceblue
+    background-color: rgb(40, 20, 45);
+    color:aliceblue;
+    text-align: center;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0%;
+    }
+header nav ul {list-style: none; font-size: medium; padding:0; color: black;}
+header nav ul li {display: inline; margin:0 15px; color: black;}
+main { 
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+}
+h1,h2,h3,h4,h5,h6,p {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(20,10,25);
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
