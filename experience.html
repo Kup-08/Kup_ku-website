@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Kup_ku</title>
+    <title>Experience and Certifications | Kup_ku</title>
     <meta
       name="description"
-      content="Contact Kup_ku for jobs, commissions, collaborations, and networking with email and social links."
+      content="Certifications, technical skills, and future slots for education and work history in Kup_ku's portfolio."
     />
-    <meta property="og:title" content="Contact | Kup_ku" />
-    <meta property="og:description" content="Email, socials, and outreach paths for work and collaboration." />
+    <meta property="og:title" content="Experience and Certifications | Kup_ku" />
+    <meta property="og:description" content="Certifications, grouped technical skills, and room for growth." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kupku.dev/contact.html" />
+    <meta property="og:url" content="https://kupku.dev/experience.html" />
     <meta property="og:image" content="https://kupku.dev/assets/og-image.png" />
     <meta name="theme-color" content="#5a56f2" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body data-page="contact.html">
+  <body data-page="experience.html">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
@@ -43,31 +43,29 @@
 
     <main id="main-content">
       <section class="page-intro">
-        <h1>Contact</h1>
-        <p>Reach out for jobs, commissions, collaborations, and general networking.</p>
+        <h1>Experience and Certifications</h1>
+        <p>A clean overview of certifications and technical skills with room for future additions.</p>
       </section>
 
       <section class="dual-grid">
         <article class="panel reveal">
-          <h2>Email</h2>
-          <p><a id="contactEmail" href="mailto:kupku@proton.me"></a></p>
-          <h3>Open to</h3>
-          <ul id="contactGoals" class="social-list"></ul>
-          <p>
-            <a id="resumeDownload" class="btn btn-primary" href="assets/resume/Kup_ku_Resume.txt" download>
-              Download Resume
-            </a>
-          </p>
+          <h2>Certifications</h2>
+          <ul id="certList" class="clean-list"></ul>
         </article>
-
         <article class="panel reveal">
-          <h2>Social Links</h2>
-          <p class="meta-line">
-            Public fields only: display name, username, avatar, bio, and profile links. Manual entry is used when
-            API sync is not practical.
-          </p>
-          <ul id="allSocials" class="social-list"></ul>
+          <h2>Future Sections</h2>
+          <p><strong>Achievements:</strong> <span id="futureAchievements"></span></p>
+          <p><strong>Education:</strong> <span id="futureEducation"></span></p>
+          <p><strong>Work History:</strong> <span id="futureWork"></span></p>
         </article>
+      </section>
+
+      <section>
+        <div class="page-intro">
+          <h2>Technical Skills</h2>
+          <p>Grouped for quick recruiter and collaborator review.</p>
+        </div>
+        <div id="skillGroups" class="skill-groups"></div>
       </section>
     </main>
 

@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Kup_ku</title>
+    <title>Service | Kup_ku</title>
     <meta
       name="description"
-      content="Contact Kup_ku for jobs, commissions, collaborations, and networking with email and social links."
+      content="Navy service profile for Kup_ku with Robotics Warfare Specialist details in a concise professional format."
     />
-    <meta property="og:title" content="Contact | Kup_ku" />
-    <meta property="og:description" content="Email, socials, and outreach paths for work and collaboration." />
+    <meta property="og:title" content="Service | Kup_ku" />
+    <meta property="og:description" content="Concise Navy service details and role context." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://kupku.dev/contact.html" />
+    <meta property="og:url" content="https://kupku.dev/service.html" />
     <meta property="og:image" content="https://kupku.dev/assets/og-image.png" />
     <meta name="theme-color" content="#5a56f2" />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body data-page="contact.html">
+  <body data-page="service.html">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header">
@@ -43,31 +43,16 @@
 
     <main id="main-content">
       <section class="page-intro">
-        <h1>Contact</h1>
-        <p>Reach out for jobs, commissions, collaborations, and general networking.</p>
+        <h1>Service</h1>
+        <p>A concise, professional summary of Navy service details.</p>
       </section>
 
-      <section class="dual-grid">
-        <article class="panel reveal">
-          <h2>Email</h2>
-          <p><a id="contactEmail" href="mailto:kupku@proton.me"></a></p>
-          <h3>Open to</h3>
-          <ul id="contactGoals" class="social-list"></ul>
-          <p>
-            <a id="resumeDownload" class="btn btn-primary" href="assets/resume/Kup_ku_Resume.txt" download>
-              Download Resume
-            </a>
-          </p>
-        </article>
-
-        <article class="panel reveal">
-          <h2>Social Links</h2>
-          <p class="meta-line">
-            Public fields only: display name, username, avatar, bio, and profile links. Manual entry is used when
-            API sync is not practical.
-          </p>
-          <ul id="allSocials" class="social-list"></ul>
-        </article>
+      <section class="panel reveal" aria-labelledby="serviceHeading">
+        <h2 id="serviceHeading">Navy Service</h2>
+        <p id="serviceIntro"></p>
+        <p><strong>Rate:</strong> <span id="serviceRate"></span></p>
+        <p><strong>Years:</strong> <span id="serviceYears"></span></p>
+        <p id="serviceNote" class="meta-line"></p>
       </section>
     </main>
 

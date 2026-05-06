@@ -1,25 +1,77 @@
-<!DOCTYPE html>
-	<head>
-		<title>Kup_ku | About</title>
-		<link rel="stylesheet" type="text/css" href="mainStyle.css">
-	</head>
-	<body>
-		<header>
-			<nav>
-				<ul>	
-                    <li><a href="index.html "><img src="assets/Profile_Pic.png" alt="Home" height="100"></a></li>
-					<br>
-                    <li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Kup_ku</title>
+    <meta
+      name="description"
+      content="Learn about Kup_ku's background in software development, 3D content creation, and practical project approach."
+    />
+    <meta property="og:title" content="About Kup_ku" />
+    <meta property="og:description" content="Personal background, build approach, and recruiter summary." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kupku.dev/about.html" />
+    <meta property="og:image" content="https://kupku.dev/assets/og-image.png" />
+    <meta name="theme-color" content="#5a56f2" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="about.html">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">Kup_ku</a>
+        <div class="header-actions">
+          <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">Dark</button>
+          <button
+            id="menuToggle"
+            class="icon-btn menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Open menu"
+          >
+            Menu
+          </button>
+        </div>
+      </div>
+      <nav class="nav-wrap" aria-label="Primary navigation">
+        <ul id="navMenu" class="nav-menu"></ul>
+      </nav>
+    </header>
 
-		</main>
-		<footer>
-			&copy; 2025 Ky-Hi LLC
-		</footer>
-	</body>
+    <main id="main-content">
+      <section class="page-intro">
+        <h1>About</h1>
+        <p>A grounded profile covering how I work and what I bring to teams, clients, and collaborators.</p>
+      </section>
+
+      <section class="content-flow" aria-labelledby="bioHeading">
+        <h2 id="bioHeading">Background</h2>
+        <div id="aboutBio" class="panel"></div>
+      </section>
+
+      <section class="dual-grid" aria-labelledby="approachHeading">
+        <article class="panel reveal">
+          <h2 id="approachHeading">How I Build</h2>
+          <ul id="approachList" class="clean-list"></ul>
+        </article>
+        <article class="panel reveal">
+          <h2>Professional Summary</h2>
+          <p id="recruiterSummary"></p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p><strong id="footerName"></strong> • <span id="footerYear"></span></p>
+        <p><a id="footerEmail" href="mailto:kupku@proton.me"></a></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
 </html>

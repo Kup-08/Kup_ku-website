@@ -1,27 +1,85 @@
-<!DOCTYPE html>
-	<head>
-		<title>Kup_ku | Home</title>
-		<link rel="stylesheet" type="text/css" href="mainStyle.css">
-	</head>
-	<body>
-		<header>
-			<nav>
-				<ul>	
-                    <li><a href="index.html "><img src="assets/Profile_Pic.png" alt="Home" height="100"></a></li>
-					<br>
-                    <li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-            <h1>Welcome to Kup_ku`s home page!</h1>
-            <p>here you will be able to access various features and information about Kup_ku.</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kup_ku | Software Dev and 3D Content Creator</title>
+    <meta
+      name="description"
+      content="Kup_ku portfolio: software development, 3D content creation, Navy service, and community identity in one structured profile site."
+    />
+    <meta property="og:title" content="Kup_ku | Portfolio" />
+    <meta
+      property="og:description"
+      content="Professional and creative portfolio for Kup_ku with projects, experience, service, and contact details."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kupku.dev/index.html" />
+    <meta property="og:image" content="https://kupku.dev/assets/og-image.png" />
+    <meta name="theme-color" content="#5a56f2" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="index.html">
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">Kup_ku</a>
+        <div class="header-actions">
+          <button id="themeToggle" class="icon-btn" type="button" aria-label="Toggle theme">Dark</button>
+          <button
+            id="menuToggle"
+            class="icon-btn menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Open menu"
+          >
+            Menu
+          </button>
+        </div>
+      </div>
+      <nav class="nav-wrap" aria-label="Primary navigation">
+        <ul id="navMenu" class="nav-menu"></ul>
+      </nav>
+    </header>
 
-		</main>
-		<footer>
-			&copy; 2025 Ky-Hi LLC
-		</footer>
-	</body>
+    <main id="main-content">
+      <section class="hero">
+        <article class="panel reveal">
+          <h1 id="heroName">Kup_ku</h1>
+          <p id="heroHeadline" class="subtitle"></p>
+          <p class="pronouns">Pronouns: <span id="heroPronouns"></span></p>
+          <p id="heroIntro"></p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="projects.html">View Projects</a>
+            <a class="btn" href="contact.html">Contact Me</a>
+          </div>
+        </article>
+
+        <aside class="panel reveal" aria-label="Quick summary">
+          <h2>What I Do</h2>
+          <p id="homeSummary"></p>
+        </aside>
+      </section>
+
+      <section aria-labelledby="highlightsHeading">
+        <div class="page-intro">
+          <h2 id="highlightsHeading">Quick Highlights</h2>
+          <p>Core areas across software, 3D work, service, and community.</p>
+        </div>
+        <div id="highlights" class="highlight-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <p><strong id="footerName"></strong> • <span id="footerYear"></span></p>
+        <p><a id="footerEmail" href="mailto:kupku@proton.me"></a></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/site.js"></script>
+  </body>
 </html>
