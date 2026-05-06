@@ -4,3 +4,10 @@
 !.dev.vars.example
 .env*
 !.env.example
+node_modules/
+portfolio/.wrangler/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+.vscode/

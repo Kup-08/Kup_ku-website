@@ -1,9 +1,0 @@
-Resume placeholder
-
-Replace this file with your real resume PDF and keep the same path and filename in assets/js/content.js:
-assets/resume/Kup_ku_Resume.txt
-
-Suggested replacement filename:
-assets/resume/Kup_ku_Resume.pdf
-
-Then update content.contact.resumeUrl to match.

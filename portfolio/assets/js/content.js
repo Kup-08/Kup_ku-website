@@ -120,7 +120,7 @@ window.siteContent = {
   contact: {
     email: "kupku@proton.me",
     opportunities: ["Jobs", "Commissions", "Collaborations", "Networking"],
-    resumeUrl: "assets/resume/Kup_ku_Resume.txt"
+    resumeUrl: "assets/resume/Resume.pdf"
   },
   socials: [
     { platform: "GitHub", username: "Kup_ku", url: "https://github.com/Kup-08", category: "professional", sync: "manual" },

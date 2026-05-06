@@ -1,5 +1,5 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
   "name": "kup-ku-worker-main",
   "compatibility_date": "2026-05-06",
   "observability": {
